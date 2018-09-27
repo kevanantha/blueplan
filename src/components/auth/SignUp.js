@@ -20,7 +20,7 @@ class SignIn extends Component {
     return (
       <div className="container">
         <form className="white" onSubmit={ this.handleSubmit }>
-          <h5 className="grey-text text-darken-3">Sign Up</h5>
+          <h5 className="center grey-text text-darken-3">Sign Up</h5>
           <div className="input-field">
             <label htmlFor="firstName">First Name</label>
             <input id="firstName" type="text" onChange={ this.handleChange } />
